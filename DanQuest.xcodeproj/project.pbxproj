@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B4870091B770A8400D19FE2 /* GameStateScores.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B4870071B770A8400D19FE2 /* GameStateScores.cpp */; };
+		6B4D4D2C1B706983005782F9 /* GameStateOver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B4D4D2A1B706983005782F9 /* GameStateOver.cpp */; };
+		6B5D44351B7118EA00344E31 /* TitlePage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B5D44331B7118EA00344E31 /* TitlePage.cpp */; };
+		6B86553B1B71D1FF00569024 /* GameOverPage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8655391B71D1FF00569024 /* GameOverPage.cpp */; };
+		6B86553E1B7243F900569024 /* HighScorePage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B86553C1B7243F900569024 /* HighScorePage.cpp */; };
+		6B8A69171B66332B003EE75F /* ResourcePath.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A69161B66332B003EE75F /* ResourcePath.mm */; };
+		6B8A691A1B66332B003EE75F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A69191B66332B003EE75F /* main.cpp */; };
+		6B8A692B1B663469003EE75F /* GameState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A69291B663469003EE75F /* GameState.cpp */; };
+		6B8A692E1B66361B003EE75F /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A692C1B66361B003EE75F /* Game.cpp */; };
+		6B8A69311B6643B5003EE75F /* GameStateStart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A692F1B6643B5003EE75F /* GameStateStart.cpp */; };
+		6B8A69341B666F3D003EE75F /* GameStatePlaying.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A69321B666F3D003EE75F /* GameStatePlaying.cpp */; };
+		6B8A69371B667589003EE75F /* TextureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A69351B667589003EE75F /* TextureManager.cpp */; };
+		6B8A693D1B6677D0003EE75F /* DanQuestWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A693A1B6677D0003EE75F /* DanQuestWall.png */; };
+		6B8A69471B667E23003EE75F /* Wall.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B8A69451B667E23003EE75F /* Wall.cpp */; };
+		6B8A69491B66904F003EE75F /* DanQuestBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B8A69481B66904F003EE75F /* DanQuestBackground.png */; };
+		6B9435CE1B6FA9030086F7C6 /* Consolas.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B9435CD1B6FA9030086F7C6 /* Consolas.ttf */; };
+		6B9435D11B6FB3EB0086F7C6 /* FontManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B9435CF1B6FB3EB0086F7C6 /* FontManager.cpp */; };
+		6B9B686D1B67739C00762E16 /* DanQuestBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B9B686C1B67739C00762E16 /* DanQuestBall.png */; };
+		6B9B68701B6773F500762E16 /* Ball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B686E1B6773F500762E16 /* Ball.cpp */; };
+		6B9B68731B67B18600762E16 /* BallSpawner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6B9B68711B67B18600762E16 /* BallSpawner.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6B4870071B770A8400D19FE2 /* GameStateScores.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateScores.cpp; sourceTree = "<group>"; };
+		6B4870081B770A8400D19FE2 /* GameStateScores.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateScores.h; sourceTree = "<group>"; };
+		6B4D4D2A1B706983005782F9 /* GameStateOver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateOver.cpp; sourceTree = "<group>"; };
+		6B4D4D2B1B706983005782F9 /* GameStateOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateOver.h; sourceTree = "<group>"; };
+		6B5D44331B7118EA00344E31 /* TitlePage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TitlePage.cpp; sourceTree = "<group>"; };
+		6B5D44341B7118EA00344E31 /* TitlePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitlePage.h; sourceTree = "<group>"; };
+		6B8655391B71D1FF00569024 /* GameOverPage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameOverPage.cpp; sourceTree = "<group>"; };
+		6B86553A1B71D1FF00569024 /* GameOverPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverPage.h; sourceTree = "<group>"; };
+		6B86553C1B7243F900569024 /* HighScorePage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HighScorePage.cpp; sourceTree = "<group>"; };
+		6B86553D1B7243F900569024 /* HighScorePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighScorePage.h; sourceTree = "<group>"; };
+		6B8A69111B66332B003EE75F /* DanQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8A69151B66332B003EE75F /* DanQuest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanQuest-Info.plist"; sourceTree = "<group>"; };
+		6B8A69161B66332B003EE75F /* ResourcePath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ResourcePath.mm; sourceTree = "<group>"; };
+		6B8A69181B66332B003EE75F /* ResourcePath.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ResourcePath.hpp; sourceTree = "<group>"; };
+		6B8A69191B66332B003EE75F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6B8A69291B663469003EE75F /* GameState.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameState.cpp; sourceTree = "<group>"; };
+		6B8A692A1B663469003EE75F /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		6B8A692C1B66361B003EE75F /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		6B8A692D1B66361B003EE75F /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		6B8A692F1B6643B5003EE75F /* GameStateStart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateStart.cpp; sourceTree = "<group>"; };
+		6B8A69301B6643B5003EE75F /* GameStateStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStateStart.h; sourceTree = "<group>"; };
+		6B8A69321B666F3D003EE75F /* GameStatePlaying.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStatePlaying.cpp; sourceTree = "<group>"; };
+		6B8A69331B666F3D003EE75F /* GameStatePlaying.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameStatePlaying.h; sourceTree = "<group>"; };
+		6B8A69351B667589003EE75F /* TextureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureManager.cpp; sourceTree = "<group>"; };
+		6B8A69361B667589003EE75F /* TextureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureManager.h; sourceTree = "<group>"; };
+		6B8A693A1B6677D0003EE75F /* DanQuestWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DanQuestWall.png; sourceTree = "<group>"; };
+		6B8A69451B667E23003EE75F /* Wall.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Wall.cpp; sourceTree = "<group>"; };
+		6B8A69461B667E23003EE75F /* Wall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wall.h; sourceTree = "<group>"; };
+		6B8A69481B66904F003EE75F /* DanQuestBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DanQuestBackground.png; sourceTree = "<group>"; };
+		6B9435CD1B6FA9030086F7C6 /* Consolas.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Consolas.ttf; sourceTree = "<group>"; };
+		6B9435CF1B6FB3EB0086F7C6 /* FontManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FontManager.cpp; sourceTree = "<group>"; };
+		6B9435D01B6FB3EB0086F7C6 /* FontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontManager.h; sourceTree = "<group>"; };
+		6B9B686C1B67739C00762E16 /* DanQuestBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DanQuestBall.png; sourceTree = "<group>"; };
+		6B9B686E1B6773F500762E16 /* Ball.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Ball.cpp; sourceTree = "<group>"; };
+		6B9B686F1B6773F500762E16 /* Ball.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ball.h; sourceTree = "<group>"; };
+		6B9B68711B67B18600762E16 /* BallSpawner.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BallSpawner.cpp; sourceTree = "<group>"; };
+		6B9B68721B67B18600762E16 /* BallSpawner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallSpawner.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8A690D1B66332B003EE75F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8A69071B66332B003EE75F = {
+			isa = PBXGroup;
+			children = (
+				6B8A69131B66332B003EE75F /* DanQuest */,
+				6B8A69121B66332B003EE75F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8A69121B66332B003EE75F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A69111B66332B003EE75F /* DanQuest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8A69131B66332B003EE75F /* DanQuest */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A69161B66332B003EE75F /* ResourcePath.mm */,
+				6B8A69181B66332B003EE75F /* ResourcePath.hpp */,
+				6B8A69191B66332B003EE75F /* main.cpp */,
+				6B8A692C1B66361B003EE75F /* Game.cpp */,
+				6B8A692D1B66361B003EE75F /* Game.h */,
+				6B9B686E1B6773F500762E16 /* Ball.cpp */,
+				6B9B686F1B6773F500762E16 /* Ball.h */,
+				6B5D44331B7118EA00344E31 /* TitlePage.cpp */,
+				6B5D44341B7118EA00344E31 /* TitlePage.h */,
+				6B9B68711B67B18600762E16 /* BallSpawner.cpp */,
+				6B9B68721B67B18600762E16 /* BallSpawner.h */,
+				6B8655391B71D1FF00569024 /* GameOverPage.cpp */,
+				6B86553A1B71D1FF00569024 /* GameOverPage.h */,
+				6B86553C1B7243F900569024 /* HighScorePage.cpp */,
+				6B86553D1B7243F900569024 /* HighScorePage.h */,
+				6B8A69451B667E23003EE75F /* Wall.cpp */,
+				6B8A69461B667E23003EE75F /* Wall.h */,
+				6B8A69351B667589003EE75F /* TextureManager.cpp */,
+				6B8A69361B667589003EE75F /* TextureManager.h */,
+				6B9435CF1B6FB3EB0086F7C6 /* FontManager.cpp */,
+				6B9435D01B6FB3EB0086F7C6 /* FontManager.h */,
+				6B8A69291B663469003EE75F /* GameState.cpp */,
+				6B8A692A1B663469003EE75F /* GameState.h */,
+				6B8A692F1B6643B5003EE75F /* GameStateStart.cpp */,
+				6B8A69301B6643B5003EE75F /* GameStateStart.h */,
+				6B8A69321B666F3D003EE75F /* GameStatePlaying.cpp */,
+				6B8A69331B666F3D003EE75F /* GameStatePlaying.h */,
+				6B4D4D2A1B706983005782F9 /* GameStateOver.cpp */,
+				6B4D4D2B1B706983005782F9 /* GameStateOver.h */,
+				6B4870071B770A8400D19FE2 /* GameStateScores.cpp */,
+				6B4870081B770A8400D19FE2 /* GameStateScores.h */,
+				6B8A691B1B66332B003EE75F /* Resources */,
+				6B8A69141B66332B003EE75F /* Supporting Files */,
+			);
+			path = DanQuest;
+			sourceTree = "<group>";
+		};
+		6B8A69141B66332B003EE75F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A69151B66332B003EE75F /* DanQuest-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B8A691B1B66332B003EE75F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B8A69481B66904F003EE75F /* DanQuestBackground.png */,
+				6B8A693A1B6677D0003EE75F /* DanQuestWall.png */,
+				6B9B686C1B67739C00762E16 /* DanQuestBall.png */,
+				6B9435CD1B6FA9030086F7C6 /* Consolas.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8A69101B66332B003EE75F /* DanQuest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8A69261B66332B003EE75F /* Build configuration list for PBXNativeTarget "DanQuest" */;
+			buildPhases = (
+				6B8A690C1B66332B003EE75F /* Sources */,
+				6B8A690D1B66332B003EE75F /* Frameworks */,
+				6B8A690E1B66332B003EE75F /* Resources */,
+				6B8A690F1B66332B003EE75F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanQuest;
+			productName = DanQuest;
+			productReference = 6B8A69111B66332B003EE75F /* DanQuest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8A69081B66332B003EE75F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tang;
+			};
+			buildConfigurationList = 6B8A690B1B66332B003EE75F /* Build configuration list for PBXProject "DanQuest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B8A69071B66332B003EE75F;
+			productRefGroup = 6B8A69121B66332B003EE75F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8A69101B66332B003EE75F /* DanQuest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8A690E1B66332B003EE75F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9B686D1B67739C00762E16 /* DanQuestBall.png in Resources */,
+				6B8A69491B66904F003EE75F /* DanQuestBackground.png in Resources */,
+				6B9435CE1B6FA9030086F7C6 /* Consolas.ttf in Resources */,
+				6B8A693D1B6677D0003EE75F /* DanQuestWall.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B8A690F1B66332B003EE75F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert : not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$PRODUCT_NAME.app/Contents/Frameworks\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"/Library/Frameworks/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"/usr/local/lib/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"/usr/local/lib/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy sndfile framework too\n            copy \"/Library/Frameworks/sndfile.framework\" \"$dest/sndfile.framework\"\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            # copy freetype framework too\n            copy \"/Library/Frameworks/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8A690C1B66332B003EE75F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9B68701B6773F500762E16 /* Ball.cpp in Sources */,
+				6B8A69471B667E23003EE75F /* Wall.cpp in Sources */,
+				6B86553B1B71D1FF00569024 /* GameOverPage.cpp in Sources */,
+				6B8A69341B666F3D003EE75F /* GameStatePlaying.cpp in Sources */,
+				6B9B68731B67B18600762E16 /* BallSpawner.cpp in Sources */,
+				6B5D44351B7118EA00344E31 /* TitlePage.cpp in Sources */,
+				6B9435D11B6FB3EB0086F7C6 /* FontManager.cpp in Sources */,
+				6B8A691A1B66332B003EE75F /* main.cpp in Sources */,
+				6B8A692B1B663469003EE75F /* GameState.cpp in Sources */,
+				6B8A69171B66332B003EE75F /* ResourcePath.mm in Sources */,
+				6B86553E1B7243F900569024 /* HighScorePage.cpp in Sources */,
+				6B8A692E1B66361B003EE75F /* Game.cpp in Sources */,
+				6B4D4D2C1B706983005782F9 /* GameStateOver.cpp in Sources */,
+				6B8A69311B6643B5003EE75F /* GameStateStart.cpp in Sources */,
+				6B4870091B770A8400D19FE2 /* GameStateScores.cpp in Sources */,
+				6B8A69371B667589003EE75F /* TextureManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6B8A69241B66332B003EE75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		6B8A69251B66332B003EE75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		6B8A69271B66332B003EE75F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DanQuest/DanQuest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6B8A69281B66332B003EE75F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "DanQuest/DanQuest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8A690B1B66332B003EE75F /* Build configuration list for PBXProject "DanQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8A69241B66332B003EE75F /* Debug */,
+				6B8A69251B66332B003EE75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8A69261B66332B003EE75F /* Build configuration list for PBXNativeTarget "DanQuest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8A69271B66332B003EE75F /* Debug */,
+				6B8A69281B66332B003EE75F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8A69081B66332B003EE75F /* Project object */;
+}
